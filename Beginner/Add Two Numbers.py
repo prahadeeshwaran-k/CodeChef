@@ -26,6 +26,6 @@ def add(a,b):
     x = a+b
     print("The Sum of", a,"+",b," = ",x)
 for  i in range(T):
-    n1 =  int(input("Enter a Number A  :"))
-    n2 =  int(input("Enter a Number B  :"))
+    n1 =  int(input("Enter a Number A : "))
+    n2 =  int(input("Enter a Number B : "))
     add(n1,n2)
