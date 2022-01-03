@@ -14,7 +14,7 @@ If there is not enough money in the account to complete the transaction, output 
 #Code
 withdraw = int(input("Enter a amount of Withdraw:  "))
 balance = float(input("Enter a amount of Withdraw: "))
-if (withdraw % 5 == 0) and (withdraw + 0.50 <= balance):
+if withdraw % 5 == 0 and withdraw + 0.50 <= balance :
     print(balance-withdraw-0.50)
 else:
     print(balance)
